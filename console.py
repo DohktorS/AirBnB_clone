@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This defines the HBnB console."""
+"""Defines the HBnB console."""
 import cmd
 import re
 from shlex import split
@@ -32,7 +32,7 @@ def parse(arg):
 
 
 class HBNBCommand(cmd.Cmd):
-    """This defines the AlxBnB command interpreter.
+    """Defines the HolbertonBnB command interpreter.
     Attributes:
         prompt (str): The command prompt.
     """
@@ -49,11 +49,11 @@ class HBNBCommand(cmd.Cmd):
     }
 
     def emptyline(self):
-        """Do nothing when there is an empty line input."""
+        """Do nothing upon receiving an empty line."""
         pass
 
     def default(self, arg):
-        """Do this when input is invalid"""
+        """Default behavior for cmd module when input is invalid"""
         argdict = {
             "all": self.do_all,
             "show": self.do_show,
@@ -74,7 +74,7 @@ class HBNBCommand(cmd.Cmd):
         return False
 
     def do_quit(self, arg):
-        """Command to exit the program."""
+        """Quit command to exit the program."""
         return True
 
     def do_EOF(self, arg):
