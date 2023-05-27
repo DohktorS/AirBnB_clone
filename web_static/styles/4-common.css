@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * === Global style ===
  */
@@ -18,3 +19,17 @@ body{
  strong {
    font-weight: bold;
  }
+=======
+body {
+    margin: 0;
+    padding: 0;
+    color: #484848;
+    font-size: 14px;
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+>>>>>>> 5a75ddb206118e0b4766c25c00a04f97f74d63f2

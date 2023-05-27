@@ -1,12 +1,21 @@
+<<<<<<< HEAD
 /*
  * === Global style ===
  */
 
 /* Global style */
 body{
+=======
+body {
+>>>>>>> 5a75ddb206118e0b4766c25c00a04f97f74d63f2
     margin: 0;
     padding: 0;
     color: #484848;
     font-size: 14px;
+<<<<<<< HEAD
     font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
  }
+=======
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+>>>>>>> 5a75ddb206118e0b4766c25c00a04f97f74d63f2

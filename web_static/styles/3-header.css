@@ -1,10 +1,26 @@
+<<<<<<< HEAD
 /*
  * === Header style ===
  */
 /* Header style */
 header {
     background: #ffffff url('../images/logo.png') 20px center no-repeat;
+=======
+header {
+    background-color: white;
+>>>>>>> 5a75ddb206118e0b4766c25c00a04f97f74d63f2
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
 }
+<<<<<<< HEAD
+=======
+
+.logo {
+    background-image: url(../images/logo.png);
+    position: absolute;
+    width: 136px;
+    height: 60px;
+    left: 20px;
+}
+>>>>>>> 5a75ddb206118e0b4766c25c00a04f97f74d63f2

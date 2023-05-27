@@ -3,6 +3,7 @@
  */
 /* Footer style */
 footer {
+<<<<<<< HEAD
             border-top: 1px solid #CCCCCC;
             text-align: center;
             background-color: #ffffff;
@@ -13,4 +14,16 @@ footer {
             position: relative;
             align-items: center;
             display: flex;
+=======
+    border-top: 1px solid #CCCCCC;
+    text-align: center;
+    background-color: #ffffff;
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    display: flex;
+>>>>>>> 5a75ddb206118e0b4766c25c00a04f97f74d63f2
 }

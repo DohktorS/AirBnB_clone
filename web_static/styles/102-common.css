@@ -3,6 +3,7 @@
  */
 
 /* Global style */
+<<<<<<< HEAD
 body{
     color: #484848;
     font: 14px Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -20,3 +21,25 @@ body{
  strong {
    font-weight: bold;
  }
+=======
+body {
+    color: #484848;
+    font: 14px Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+/*strong*/
+strong {
+    font-weight: bold;
+}
+>>>>>>> 5a75ddb206118e0b4766c25c00a04f97f74d63f2

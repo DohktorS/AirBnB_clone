@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * === Places class style ===
  */
@@ -22,4 +23,32 @@
 	font-size: 30px ;
 	font-weight: bold;
 	text-align: center;
+=======
+.places {
+    max-width: 1000px;
+    margin: 0px auto;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.places h1 {
+    width: 100%;
+    padding-left: 22px;
+}
+
+.places article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid red;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.places article h2 {
+    font-size: 30px;
+>>>>>>> 5a75ddb206118e0b4766c25c00a04f97f74d63f2
 }
